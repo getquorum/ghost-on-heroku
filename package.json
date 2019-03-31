@@ -13,12 +13,15 @@
     "casper": "github:tryghost/Casper#2.9.6",
     "ghost": "^2.18.0",
     "ghost-storage-adapter-s3": "^2.3.0",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "sqlite3": "^4.0.6"
   },
+  "devDependencies": {},
   "engines": {
     "node": "10.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "NODE_ENV=production nodemon server.js"
   }
 }
