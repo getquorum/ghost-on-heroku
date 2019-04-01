@@ -4,6 +4,7 @@ npm-debug.log*
 .env
 
 content/data/*.db
+content/data/**
 content/logs/
 config.production.json
 content/data/ghost-local.db

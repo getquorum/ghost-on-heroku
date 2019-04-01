@@ -1,5 +1,5 @@
 {
   "verbose": false,
-  "ignore": ["www", "dist", "scripts"],
+  "ignore": ["www", "dist", "scripts", "content/data/**"],
   "ext": "js json yaml hbs"
 }
